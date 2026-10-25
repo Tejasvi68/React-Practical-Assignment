@@ -46,6 +46,9 @@ import MountEffect from "./s9-useeffect/Q42-MountEffect";
 import EffectEveryRender from "./s9-useeffect/Q43-EffectEveryRender";
 import EffectDependency from "./s9-useeffect/Q44-EffectDependency";
 import TimerCleanup from "./s9-useeffect/Q45-TimerCleanup";
+import AutoFocus from "./s10-useref-custom-hooks/Q46-AutoFocus";
+import RenderCount from "./s10-useref-custom-hooks/Q47-RenderCount";
+import CustomHooksDemo from "./s10-useref-custom-hooks/Q48-CustomHooks";
 
 
 
@@ -339,6 +342,27 @@ function App() {
       <section>
         <h2>Question 45</h2>
         <TimerCleanup />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Question 46</h2>
+        <AutoFocus />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Question 47</h2>
+        <RenderCount />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Question 48</h2>
+        <CustomHooksDemo />
       </section>
 
       <hr />
