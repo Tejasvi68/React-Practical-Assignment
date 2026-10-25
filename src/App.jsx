@@ -14,6 +14,14 @@ import FruitsExample from "./s3-arrays/Q10-Fruits";
 import PopExample from "./s3-arrays/Q11-Pop";
 import ShiftUnshiftExample from "./s3-arrays/Q12-ShiftUnshift";
 import MapExample from "./s3-arrays/Q13-Map";
+import MapGreetings from "./s3-arrays/Q14-MapGreetings";
+import FilterNumbers from "./s3-arrays/Q15-FilterNumbers";
+import FilterUsers from "./s3-arrays/Q16-FilterUsers";
+import ReduceTotal from "./s3-arrays/Q17-ReduceTotal";
+import ReduceCart from "./s3-arrays/Q18-ReduceCart";
+import ObjectOperations from "./s3-arrays/Q19-ObjectOperations";
+
+
 
 
 
@@ -99,6 +107,42 @@ function App() {
       <section>
         <h2>Question 13</h2>
         <MapExample />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 14</h2>
+        <MapGreetings />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 15</h2>
+        <FilterNumbers />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 16</h2>
+        <FilterUsers />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 17</h2>
+        <ReduceTotal />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 18</h2>
+        <ReduceCart />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 19</h2>
+        <ObjectOperations />
       </section>
       <hr />
 
