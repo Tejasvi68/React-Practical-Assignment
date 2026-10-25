@@ -49,6 +49,8 @@ import TimerCleanup from "./s9-useeffect/Q45-TimerCleanup";
 import AutoFocus from "./s10-useref-custom-hooks/Q46-AutoFocus";
 import RenderCount from "./s10-useref-custom-hooks/Q47-RenderCount";
 import CustomHooksDemo from "./s10-useref-custom-hooks/Q48-CustomHooks";
+import PromiseStates from "./s11-promises/Q49-PromiseStates";
+import FetchUsers from "./s11-promises/Q50-FetchUsers";
 
 
 
@@ -366,6 +368,21 @@ function App() {
       </section>
 
       <hr />
+
+      <section>
+        <h2>Question 49</h2>
+        <PromiseStates />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Question 50</h2>
+        <FetchUsers />
+      </section>
+
+      <hr />  
+
 
       <Footer />
     </div>
