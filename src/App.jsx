@@ -42,6 +42,13 @@ import ThemeProviderDemo from "./s7-context/Q38-ThemeProvider";
 import RoutingDemo from "./s8-routing/Q39-Routing";
 import NavbarDemo from "./s8-routing/Q40-Navbar";
 import DynamicRoutesDemo from "./s8-routing/Q41-DynamicRoutes";
+import MountEffect from "./s9-useeffect/Q42-MountEffect";
+import EffectEveryRender from "./s9-useeffect/Q43-EffectEveryRender";
+import EffectDependency from "./s9-useeffect/Q44-EffectDependency";
+import TimerCleanup from "./s9-useeffect/Q45-TimerCleanup";
+
+
+
 
 
 
@@ -304,6 +311,34 @@ function App() {
       <section>
         <h2>Question 41</h2>
         <DynamicRoutesDemo />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Question 42</h2>
+        <MountEffect />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Question 43</h2>
+        <EffectEveryRender />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Question 44</h2>
+        <EffectDependency />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Question 45</h2>
+        <TimerCleanup />
       </section>
 
       <hr />
