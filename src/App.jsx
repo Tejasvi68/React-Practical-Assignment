@@ -20,8 +20,12 @@ import FilterUsers from "./s3-arrays/Q16-FilterUsers";
 import ReduceTotal from "./s3-arrays/Q17-ReduceTotal";
 import ReduceCart from "./s3-arrays/Q18-ReduceCart";
 import ObjectOperations from "./s3-arrays/Q19-ObjectOperations";
-
-
+import AddFunction from "./s4-functions/Q20-AddFunction";
+import IsEven from "./s4-functions/Q21-IsEven";
+import SpreadArrays from "./s4-functions/Q22-SpreadArrays";
+import SpreadObjects from "./s4-functions/Q23-SpreadObjects";
+import ArrayCopy from "./s4-functions/Q24-ArrayCopy";
+import RestSum from "./s4-functions/Q25-RestSum";
 
 
 
@@ -143,6 +147,42 @@ function App() {
       <section>
         <h2>Question 19</h2>
         <ObjectOperations />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 20</h2>
+        <AddFunction />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 21</h2>
+        <IsEven />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 22</h2>
+        <SpreadArrays />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 23</h2>
+        <SpreadObjects />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 24</h2>
+        <ArrayCopy />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 25</h2>
+        <RestSum />
       </section>
       <hr />
 
