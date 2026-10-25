@@ -26,6 +26,14 @@ import SpreadArrays from "./s4-functions/Q22-SpreadArrays";
 import SpreadObjects from "./s4-functions/Q23-SpreadObjects";
 import ArrayCopy from "./s4-functions/Q24-ArrayCopy";
 import RestSum from "./s4-functions/Q25-RestSum";
+import CounterQ26 from "./s5-usestate/Q26-Counter";
+import ControlledInput from "./s5-usestate/Q27-ControlledInput";
+import ShowHide from "./s5-usestate/Q28-ShowHide";
+import FormObject from "./s5-usestate/Q29-FormObject";
+import TodoList from "./s5-usestate/Q30-TodoList";
+
+
+
 
 
 
@@ -186,7 +194,35 @@ function App() {
       </section>
       <hr />
 
+      <section>
+        <h2>Question 26</h2>
+        <CounterQ26 />
+      </section>
+      <hr />
 
+      <section>
+        <h2>Question 27</h2>
+        <ControlledInput />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 28</h2>
+        <ShowHide />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 29</h2>
+        <FormObject />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 30</h2>
+        <TodoList />
+      </section>
+      <hr />
 
       <Footer />
     </div>
