@@ -39,6 +39,9 @@ import UserContextDemo from "./s7-context/Q35-UserContext";
 import ContextWithoutProps from "./s7-context/Q36-ContextWithoutProps";
 import ThemeSwitcher from "./s7-context/Q37-ThemeSwitcher";
 import ThemeProviderDemo from "./s7-context/Q38-ThemeProvider";
+import RoutingDemo from "./s8-routing/Q39-Routing";
+import NavbarDemo from "./s8-routing/Q40-Navbar";
+import DynamicRoutesDemo from "./s8-routing/Q41-DynamicRoutes";
 
 
 
@@ -49,6 +52,7 @@ import ThemeProviderDemo from "./s7-context/Q38-ThemeProvider";
 function App() {
   return (
     <div>
+    
       <Header />
       <h1>React Practical Assignment</h1>
       <Content />
@@ -281,7 +285,28 @@ function App() {
         <ThemeProviderDemo />
       </section>
 
-      <hr />  
+      <hr />
+
+       <section>
+        <h2>Question 39</h2>
+        <RoutingDemo />
+      </section>
+
+      <hr /> 
+
+      <section>
+        <h2>Question 40</h2>
+        <NavbarDemo />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Question 41</h2>
+        <DynamicRoutesDemo />
+      </section>
+
+      <hr />
 
       <Footer />
     </div>
