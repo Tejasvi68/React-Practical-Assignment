@@ -35,7 +35,10 @@ import UserCardDemo from "./s6-props/Q31-UserCard";
 import UserList from "./s6-props/Q32-UserList";
 import ParentChildCounter from "./s6-props/Q33-ParentChildCounter";
 import PropDrilling from "./s6-props/Q34-PropDrilling";
-
+import UserContextDemo from "./s7-context/Q35-UserContext";
+import ContextWithoutProps from "./s7-context/Q36-ContextWithoutProps";
+import ThemeSwitcher from "./s7-context/Q37-ThemeSwitcher";
+import ThemeProviderDemo from "./s7-context/Q38-ThemeProvider";
 
 
 
@@ -252,6 +255,33 @@ function App() {
         <PropDrilling />
       </section>
       <hr />
+
+      <section>
+        <h2>Question 35</h2>
+        <UserContextDemo />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 36</h2>
+        <ContextWithoutProps />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Question 37</h2>
+        <ThemeSwitcher />
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Question 38</h2>
+        <ThemeProviderDemo />
+      </section>
+
+      <hr />  
 
       <Footer />
     </div>
