@@ -31,6 +31,11 @@ import ControlledInput from "./s5-usestate/Q27-ControlledInput";
 import ShowHide from "./s5-usestate/Q28-ShowHide";
 import FormObject from "./s5-usestate/Q29-FormObject";
 import TodoList from "./s5-usestate/Q30-TodoList";
+import UserCardDemo from "./s6-props/Q31-UserCard";
+import UserList from "./s6-props/Q32-UserList";
+import ParentChildCounter from "./s6-props/Q33-ParentChildCounter";
+import PropDrilling from "./s6-props/Q34-PropDrilling";
+
 
 
 
@@ -221,6 +226,30 @@ function App() {
       <section>
         <h2>Question 30</h2>
         <TodoList />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 31</h2>
+        <UserCardDemo />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 32</h2>
+        <UserList />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 33</h2>
+        <ParentChildCounter />
+      </section>
+      <hr />
+
+      <section>
+        <h2>Question 34</h2>
+        <PropDrilling />
       </section>
       <hr />
 
